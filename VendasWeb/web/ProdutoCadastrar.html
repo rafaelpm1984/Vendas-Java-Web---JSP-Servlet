@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro produto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <div style="display: flex; justify-content:center; align-items: center;">
+        <h1>Cadastrar Produtos</h1>
+    </div>
+    <div style="display: flex; justify-content:center; align-items: center;">
+        <form name="cad" method="post" action="produtoCadastrar">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" style="width:100%;"><br> <br> 
+            <label for="quantidade">Quantidade</label>
+            <input type="number" name="quantidade" style="width:100%;"><br> <br> 
+            <label for="valor">Valor</label>
+            <input type="number" name="valor" step="0.01" style="width:100%;"><br> <br> 
+            <input type="submit" name="botaoCadastrar" value="Cadastrar" style="display: block; margin:auto;">           
+        </form>    
+    </div> 
+    
+    <div style="display: flex; justify-content: center; align-items:center; margin-top:10px;">
+            <a href="index.html" >Voltar</a>
+    </div>
+
+</html>
